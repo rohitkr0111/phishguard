@@ -1,0 +1,54 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 0.5rem;
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.result h2 {
+  margin-top: 0;
+}
